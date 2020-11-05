@@ -3,6 +3,8 @@
 #include <iostream>
 using namespace std;
 
+//anjing banget iki menak tapi muleg nek gak teliti
+
 int main(){
     int l, p, r, i, j;
     bool prima;
@@ -45,4 +47,3 @@ int main(){
     }
     return 0;
 }
-//anjing banget iki menak tapi muleg nek gak teliti
