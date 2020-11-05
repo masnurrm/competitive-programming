@@ -36,6 +36,7 @@ int main(){
         pangkat=pow(p,x);
         while(kali%pangkat==0){
             x++;
+            pangkat=pow(p,x);
         }
         cout<<"X bernilai "<<x<<endl;
     }
@@ -44,3 +45,4 @@ int main(){
     }
     return 0;
 }
+//anjing banget iki menak tapi muleg nek gak teliti
