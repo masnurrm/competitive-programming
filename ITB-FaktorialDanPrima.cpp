@@ -3,7 +3,6 @@
 #include <iostream>
 using namespace std;
 
-//anjing banget iki menak tapi muleg nek gak teliti
 
 int main(){
     int l, p, r, i, j;
