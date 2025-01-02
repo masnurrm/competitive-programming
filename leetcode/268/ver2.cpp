@@ -1,6 +1,10 @@
+#include <vector>
+#include <unordered_set>
+#include <numeric>
+
 class Solution {
 public:
-    int missingNumber(vector<int>& nums) {
+    int missingNumber(std::vector<int>& nums) {
         int n = nums.size();
         int expect = n * (n + 1) / 2;
 

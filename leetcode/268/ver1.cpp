@@ -1,6 +1,9 @@
+#include <vector>
+#include <unordered_set>
+
 class Solution {
 public:
-    int missingNumber(vector<int>& nums) {
+    int missingNumber(std::vector<int>& nums) {
         std::unordered_set<int> hashtable;
 
         for (int num:nums) {
