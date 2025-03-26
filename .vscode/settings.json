@@ -48,6 +48,8 @@
     "xtr1common": "cpp",
     "xutility": "cpp",
     "xhash": "cpp",
-    "list": "cpp"
+    "list": "cpp",
+    "deque": "cpp",
+    "xtree": "cpp"
   }
 }
