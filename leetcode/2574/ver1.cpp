@@ -15,11 +15,11 @@ public:
             rightNums[nSize - i - 1] = rightSum;
 
             leftSum += nums[i];
-            rightSum += nums[i];
+            rightSum += nums[nSize - i - 1];
         }
 
         for (int i = 0; i < nSize; i++) {
-            leftNums[i] -= rightNums[i];
+            leftNums[i] = abs(leftNums[i] - rightNums[i]);
         }
 
         return leftNums;
